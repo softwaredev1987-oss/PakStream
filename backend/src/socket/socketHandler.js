@@ -7,7 +7,7 @@ class SocketHandler {
       cors: {
         origin: process.env.NODE_ENV === 'production' 
           ? ['https://yourdomain.com'] 
-          : ['http://localhost:3000'],
+          : ['http://localhost:3000', 'http://localhost:8080'],
         methods: ['GET', 'POST'],
         credentials: true
       }

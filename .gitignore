@@ -1,11 +1,20 @@
 # Node
 node_modules/
 dist/
+build/
 .env
 uploads/
 
-# Python
-__pycache__/
-*.pyc
-venv/
-.env
+# Logs
+*.log
+
+# Backup files
+*.backup
+
+# Temporary files
+temp_*.js
+
+# Test files
+test-*.html
+test-*.mp4
+test-*.sh
